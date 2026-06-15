@@ -1,0 +1,41 @@
+# ─── Credenciais e certificados — NUNCA versionar ────────────────────────────
+config/certificados/
+*.pfx
+*.pem
+*.key
+*.p12
+
+# ─── Banco de dados local ─────────────────────────────────────────────────────
+dados/autopag.db
+dados/A_Pagar/
+dados/Processados/
+dados/Comprovantes/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+
+# ─── Instaladores e dependências externas (não são código) ───────────────────
+installers/
+files/
+
+# ─── Arquivos de sessão do Claude ─────────────────────────────────────────────
+.claude/
+AutoPag_Contexto_Sessao.md
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ─── VS Code ──────────────────────────────────────────────────────────────────
+.vscode/
+
+# ─── Windows ──────────────────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini

@@ -1,0 +1,38 @@
+# ─── Interface Gráfica  ─────────────────────────────────────────────────────
+customtkinter==5.2.2
+
+# ─── Leitura de PDFs Nativos  ───────────────────────────────────────────────
+pdfplumber==0.11.0
+pypdf==4.2.0
+
+# ─── Leitura de QR Code  ────────────────────────────────────────────────────
+pyzbar==0.1.9
+opencv-python>=4.10.0
+pdf2image==1.17.0
+
+# ─── OCR - Fallback para PDFs escaneados (Entrega 2)   ──────────────────────
+pytesseract==0.3.10
+Pillow>=10.4.0
+
+# ─── Integração Bancária (Entrega 3)  ───────────────────────────────────────
+requests==2.31.0
+cryptography==42.0.5
+
+# ─── Segurança de Credenciais (Entrega 3)  ──────────────────────────────────
+keyring==25.2.0
+
+# ─── Monitoramento de Pasta (Entrega 2)  ────────────────────────────────────
+watchdog==4.0.0
+
+# ─── Utilitários  ───────────────────────────────────────────────────────────
+python-dateutil==2.9.0
+python-dotenv==1.0.1
+qrcode>=7.4.2
+
+
+
+
+
+
+
+
