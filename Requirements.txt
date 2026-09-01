@@ -3,7 +3,7 @@ customtkinter==5.2.2
 
 # ─── Leitura de PDFs Nativos  ───────────────────────────────────────────────
 pdfplumber==0.11.0
-pypdf==4.2.0
+pypdf==6.16.1
 
 # ─── Leitura de QR Code  ────────────────────────────────────────────────────
 pyzbar==0.1.9
